@@ -26,5 +26,17 @@ public class Main {
             System.out.println("Площадь второй фигуры больше площади первой фигуры");
         }
 
+        Cube cube = new Cube(5);
+        System.out.println(cube.getSurfaceArea());
+        System.out.println(cube.getVolume());
+
+        Sphere sphere = new Sphere(5);
+        System.out.println(sphere.getSurfaceArea());
+        System.out.println(sphere.getVolume());
+
+        Cone cone = new Cone(5, 1);
+        System.out.println(cone.getSurfaceArea());
+        System.out.println(cone.getVolume());
+
     }
 }
